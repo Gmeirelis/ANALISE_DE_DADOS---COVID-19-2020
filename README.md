@@ -1,5 +1,3 @@
-# ANALISE_DE_DADOS---COVID-19-2020
-
 # 📊 Análise da COVID-19
 
 Este projeto tem como objetivo realizar uma análise exploratória da pandemia da COVID-19, com foco em identificar:
@@ -28,16 +26,25 @@ Os dados utilizados neste projeto foram obtidos a partir do Kaggle:
 
 ## 📂 Estrutura do Projeto
 
-``bash
+```bash
 covid19-analise-dados/
 │── data/               # Base de dados utilizada (CSV do Kaggle)
 │── scripts/            # Scripts SQL utilizados no Databricks
 │── results/            # Resultados da análise (gráficos, tabelas exportadas)
 │── README.md           # Descrição do projeto
+````
+# graficos 📊
 
-##  Resultados
-- [🌍 Total de mortes por país](resultado/total_mortes_por_pais.png)
-- [🦠 Casos confirmados por país](resultado/casos_confirmados_por_pais.png)
-- [📈 Taxa de mortalidade](resultado/taxa_mortalidade.png)
+🌍 Total de mortes por país 
+
+🦠 Casos confirmados por país
+
+📈 Taxa de mortalidade
+
+
+
+
+
+
 
 
