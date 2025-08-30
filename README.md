@@ -39,7 +39,7 @@ covid19-analise-dados/
 
 
 [países com mais mortes](resultado/Total de mortes por pais.png)
-
+[casos confirmado por  pais](resultadocasos confirmado por pais (covid-19).png)
 
 
 
