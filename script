@@ -1,6 +1,6 @@
 -- Países com mais mortes
 SELECT 
-    country,
+    LEFT(UPPER(country,3)),
     SUM(deaths) AS total_mortes
 FROM covid_data
 GROUP BY country
@@ -9,7 +9,7 @@ LIMIT 10;
 
 -- Países com mais casos confirmados
 SELECT 
-    country,
+    LEFT(UPPER(country,3)),
     SUM(confirmed) AS total_casos
 FROM covid_data
 GROUP BY country
@@ -18,7 +18,7 @@ LIMIT 10;
 
 -- Taxa de mortalidade (mortes / casos confirmados)
 SELECT 
-    country,
+    LEFT(UPPER(country,3)),
     SUM(deaths) AS total_mortes,
     SUM(confirmed) AS total_casos,
     (SUM(deaths) * 100.0 / NULLIF(SUM(confirmed), 0)) AS taxa_mortalidade
