@@ -35,11 +35,9 @@ covid19-analise-dados/
 │── results/            # Resultados da análise (gráficos, tabelas exportadas)
 │── README.md           # Descrição do projeto
 
-
-
-
-[países com mais mortes](resultado/Total de mortes por pais.png)
-[casos confirmado por  pais](resultadocasos confirmado por pais (covid-19).png)
-
+##  Resultados
+- [🌍 Total de mortes por país](resultado/total_mortes_por_pais.png)
+- [🦠 Casos confirmados por país](resultado/casos_confirmados_por_pais.png)
+- [📈 Taxa de mortalidade](resultado/taxa_mortalidade.png)
 
 
