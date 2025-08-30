@@ -28,9 +28,18 @@ Os dados utilizados neste projeto foram obtidos a partir do Kaggle:
 
 ## 📂 Estrutura do Projeto
 
-```bash
+``bash
 covid19-analise-dados/
 │── data/               # Base de dados utilizada (CSV do Kaggle)
 │── scripts/            # Scripts SQL utilizados no Databricks
 │── results/            # Resultados da análise (gráficos, tabelas exportadas)
 │── README.md           # Descrição do projeto
+
+
+
+
+[países com mais mortes](resultado/Total de mortes por pais.png)
+
+
+
+
